@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');;
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aqua;
+    padding: 20px
+}
+
+.profile-card{
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+
+    width: 100%;
+    max-width: 500px;
+}
+
+.profile-header {
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/023/882/902/small_2x/icon-colored-woman-young-girl-avatar-with-short-haircut-black-hair-in-a-yellow-sweater-faceless-vector.jpg");
+    height: 250px;
+    background-size: cover ;
+    background-position: center;
+
+    background-color: #34495e;
+    border: 1px solid #0000;
+
+    margin-top: 5px;
+    padding: 30px 20px;
+    
+}
+
+.profile-status {
+    color: #ffffff;
+
+    background-color: rgba(0,0,0,6);
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: inline-block;
+
+    border: 1px solid #0000;
+    border-radius: 8px 8px 5px 5px ;
+}
+
+.profile-stats {
+    width: 100%;
+    height: 80px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5px;
+}
+
+.stat-number {
+    margin-top: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2c3e58;
+
+}
+
+.stat-label {
+    margin-top: 3px;
+    font-size: 12 px;
+    text-transform: uppercase;
+    color : #7f8c8d;
+}
+
+.mp-simulator-body {
+    margin-top: 10px;
+
+    padding: 5px;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+
+    color: #ffffff;
+    background-color: yellowgreen;
+}
+
+.mp-simulator-desc{
+    padding: 10px;
+    background-color: green;
+    color: lightcyan;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
