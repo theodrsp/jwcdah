@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary-color: #2563cb;
+  --bg-color: #f8fafc;
+  --card-bg: #ffffff;
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+  --border-color: #e2e8f0;
+  --font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 5px;
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  font-family: var(--font-family);
+}
+
+.cv-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.header-profile {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.header-name {
+  font-size: 20px;
+  margin: 0 0 4px 0
+}
+
+.header-role {
+  color: var(--primary-color);
+  font-size: 16px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+
+.skill-badge {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.experience-card {
+  background-color: var(--card-bg);;
+  border: 1px solid var(--border-color);
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.experience-title {
+  margin: 0 0 4px 0;
+  font-size: 16px;
+}
+
+.experience-company {
+  color: var(--text-muted);
+  font-size: 14px;
+  margin: 0 0 8px 0;
+}
+
+.experience-desc {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
